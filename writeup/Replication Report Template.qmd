@@ -88,7 +88,7 @@ Every measure from Study 2 is used with the original wording and 7-point scales:
 - *Speeding:* if the reading screen time is particularly low (under 10 sections for each trial), the participant will be excluded.
 - *Disclosure manipulation check (extension analyses only):* label-arm participants who answer "No" (they did not notice a label) are excluded.
 
-**Confirmatory analysis (single key test).** The outcome is trustworthiness ratings (1-7), in the **no-label arm only**, which is the direct replication. The predictor is summary version. I will test $\beta_1$ two-tailed at α = .05, using Satterthwaite degrees of freedom from `lmerTest` as in the original analysis (the original cites lme4 and lmerTest). I will report $\hat\beta_1$, its SE, df, *t*, *p*, and 95% CI, along with the estimated marginal means for each version, the variance components, and marginal and conditional R² (`MuMIn`, as in the original).
+**Confirmatory analysis (single key test).** The outcome is trustworthiness ratings (1-7), in the **no-label arm only**, which is the direct replication. The predictor is summary version. I will test $\beta_1$ two-tailed at α = .05, using  degrees of freedom from `lmerTest` as in the original analysis (the original cites lme4 and lmerTest). I will report $\hat\beta_1$, its SE, df, *t*, *p*, and 95% CI, along with the estimated marginal means for each version, the variance components, and marginal and conditional R² (`MuMIn`, as in the original).
 
 **Replication criterion.** The study replicates if $\hat\beta_1 > 0$ and *p* < .05, meaning GPT summaries are rated as more trustworthy than PNAS summaries. I will also report whether the original estimate (about 0.28) falls inside the 95% CI of the replication estimate.
 
